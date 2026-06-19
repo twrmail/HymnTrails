@@ -2,7 +2,7 @@
   "name": "HymnTrails Hymn & Song Database",
   "description": "Hymns and Psalm settings spanning church history, each linked to scripture, tagged with doctrine, and paired with a contemporary (20th/21st century) song that echoes the same theological truth.",
   "lyric_policy": "Full text stored only for hymns confirmed public domain (pre-1929 under US copyright law). All others use a short attributed excerpt under 15 words plus a lyrics_link to a legitimate external source (Hymnary.org, Genius, or official publisher).",
-  "count": 48,
+  "count": 75,
   "hymns": [
     {
       "id": "hymn-001",
@@ -109,7 +109,7 @@
       "notes": "Luther's free paraphrase of Psalm 46, written during one of the most turbulent seasons of his life — excommunicated, condemned by the Empire, the entire structure of Western Christendom arrayed against him. It became the unofficial anthem of the Reformation.",
       "modern_echo": {
         "title": "No Longer Slaves",
-        "artist": "Bethel Music (Jonathan & Melissa Helser)",
+        "artist": "Bethel Music",
         "year": 2014,
         "connection": "Both move from naming a real, threatening enemy to a declaration of fearlessness grounded in identity and divine protection — Luther's 'on earth is not his equal' answered by 'I'm no longer a slave to fear.'"
       }
@@ -413,7 +413,7 @@
         "Atonement",
         "Assurance"
       ],
-      "excerpt": "In Christ alone my hope is found, He is my light, my strength",
+      "excerpt": "In Christ alone my hope is found",
       "lyrics_link": "https://www.gettymusic.com/in-christ-alone",
       "notes": "Written explicitly to function as a modern hymn rather than a praise chorus — dense, doctrinally precise, structured in classic four-verse hymn form. Widely regarded as one of the most significant additions to congregational hymnody since the mid-20th century, sometimes called the 'modern Rock of Ages' for its sustained focus on the cross and resurrection.",
       "modern_echo": {
@@ -458,11 +458,11 @@
         "Resurrection Power",
         "Lament"
       ],
-      "excerpt": "Even when my eyes don't see, I will trust, I will trust",
+      "excerpt": "Far be it from me to not believe, even when my eyes can't see",
       "lyrics_link": "https://hymnary.org/text/even_when_my_eyes_dont_see_i_will_trust",
       "notes": "Inspired by the Shunammite woman's reply 'it is well' (2 Kings 4:26) when asked about her dead son, before Elisha raises him — a far darker context than the phrase's common comforting use. The song deliberately sits inside that tension: declaring wellness before the resolution, not after.",
       "modern_echo": {
-        "title": "It Is Well with My Soul (traditional)",
+        "title": "It Is Well with My Soul",
         "artist": "Horatio Spafford (1873)",
         "year": 1873,
         "connection": "A rare case where the modern song's natural 'echo' runs backward to the 19th century hymn it shares both a title and a theological posture with — both declare wellness from inside, not after, genuine loss."
@@ -836,7 +836,7 @@
         "Obedience",
         "Mission"
       ],
-      "excerpt": "I, the Lord of sea and sky, I have heard my people crying",
+      "excerpt": "I, the Lord of sea and sky, I have heard My people cry",
       "lyrics_link": "https://hymnary.org/text/i_the_lord_of_sea_and_sky",
       "notes": "Widely used across Catholic and Protestant traditions alike, the hymn voices God's call (drawing on Isaiah 6 and Samuel's call narrative) and the human response in the same breath — 'here I am, Lord, is it I, Lord?' — modeling calling as dialogue rather than monologue.",
       "modern_echo": {
@@ -1065,6 +1065,609 @@
         "artist": "MercyMe",
         "year": 2017,
         "connection": "Both were written out of genuine personal grief and loss, carrying real weight rather than abstract comfort — friendship with Christ tested and affirmed through actual hardship."
+      }
+    },
+    {
+      "id": "hymn-049",
+      "title": "Joy to the World",
+      "author": "Isaac Watts",
+      "year": 1719,
+      "public_domain": true,
+      "era": "Early English Hymnody",
+      "scripture_anchor": "Psalm 98",
+      "doctrine_tags": [
+        "Christ's Reign",
+        "Joy",
+        "Creation's Response"
+      ],
+      "full_text": "Joy to the world, the Lord is come!\nLet earth receive her King;\nlet every heart prepare him room,\nand heaven and nature sing.",
+      "notes": "Watts again paraphrasing a Psalm — this time Psalm 98's call for all creation to sing before the coming King — though it has become so thoroughly a Christmas carol that few singers realize its text was written about Christ's eventual reign and second coming, not the nativity specifically.",
+      "modern_echo": {
+        "title": "King of Kings",
+        "artist": "Hillsong Worship",
+        "year": 2019,
+        "connection": "Both move from a single coming announcement to the scope of Christ's reign over all the earth, treating his arrival as cosmic news rather than merely a private religious event."
+      }
+    },
+    {
+      "id": "hymn-050",
+      "title": "O Little Town of Bethlehem",
+      "author": "Phillips Brooks (music Lewis Redner)",
+      "year": 1868,
+      "public_domain": true,
+      "era": "19th Century Hymnody",
+      "scripture_anchor": "Micah 5:2; Luke 2:1-7",
+      "doctrine_tags": [
+        "Incarnation",
+        "Quiet Arrival",
+        "Hope"
+      ],
+      "full_text": "O little town of Bethlehem, how still we see thee lie!\nAbove thy deep and dreamless sleep the silent stars go by;\nyet in thy dark streets shineth the everlasting Light;\nthe hopes and fears of all the years are met in thee tonight.",
+      "notes": "Brooks wrote this after visiting Bethlehem in person and being struck by the town's ordinary quietness — the hymn deliberately resists grandeur, insisting the most consequential event in history arrived in near-total silence, in a forgettable little town.",
+      "modern_echo": {
+        "title": "Labor Room",
+        "artist": "Andrew Peterson",
+        "year": 2004,
+        "connection": "Both linger in the ordinary, unglamorous setting of the Incarnation rather than skipping to its theological significance — quietness as part of the point, not an obstacle to it."
+      }
+    },
+    {
+      "id": "hymn-051",
+      "title": "Angels We Have Heard on High",
+      "author": "Traditional French Carol (trans. James Chadwick)",
+      "year": 1862,
+      "public_domain": true,
+      "era": "19th Century Translation of Traditional Carol",
+      "scripture_anchor": "Luke 2:8-14",
+      "doctrine_tags": [
+        "Incarnation",
+        "Angelic Announcement",
+        "Praise"
+      ],
+      "full_text": "Angels we have heard on high,\nsweetly singing o'er the plains,\nand the mountains in reply\nechoing their joyous strains.\nGloria, in excelsis Deo!",
+      "notes": "Derived from an older French carol ('Les Anges dans nos campagnes'), its famous melismatic 'Gloria' refrain is sometimes called one of the most technically demanding lines in common congregational singing — a single word stretched into pure, wordless exultation.",
+      "modern_echo": {
+        "title": "Glorious Day",
+        "artist": "Passion (Kristian Stanfill)",
+        "year": 2017,
+        "connection": "Both treat a single declared truth — Christ's arrival, Christ's victory — as something too large for ordinary sentence structure, reaching instead for sustained, repeated praise."
+      }
+    },
+    {
+      "id": "hymn-052",
+      "title": "Alas! And Did My Savior Bleed",
+      "author": "Isaac Watts",
+      "year": 1707,
+      "public_domain": true,
+      "era": "Early English Hymnody",
+      "scripture_anchor": "Romans 5:6-8",
+      "doctrine_tags": [
+        "Atonement",
+        "Substitution",
+        "Wonder at the Cross"
+      ],
+      "full_text": "Alas! and did my Savior bleed,\nand did my Sovereign die?\nWould he devote that sacred head\nfor such a worm as I?",
+      "notes": "Published in the same 1707 hymnal as 'When I Survey,' this hymn asks the same essential question from a different angle — not contemplation of the cross from a distance but stunned, almost disbelieving personal address to Christ directly. The startling self-description as 'a worm' reflects the era's blunt language for total depravity.",
+      "modern_echo": {
+        "title": "Jesus Paid It All",
+        "artist": "Kristian Stanfill (Passion)",
+        "year": 2013,
+        "connection": "Both sit in genuine astonishment at substitutionary atonement rather than treating it as settled doctrine to recite — wonder as the appropriate emotional register for the cross."
+      }
+    },
+    {
+      "id": "hymn-053",
+      "title": "And Can It Be",
+      "author": "Charles Wesley",
+      "year": 1738,
+      "public_domain": true,
+      "era": "Methodist Revival",
+      "scripture_anchor": "Romans 8:1-2; Acts 16:25-26",
+      "doctrine_tags": [
+        "Conversion",
+        "Freedom from Sin",
+        "Grace"
+      ],
+      "full_text": "And can it be that I should gain\nan interest in the Savior's blood?\nDied he for me, who caused his pain?\nFor me, who him to death pursued?",
+      "notes": "Written within days of Wesley's own Aldersgate conversion experience, the third verse's imagery — 'my chains fell off, my heart was free' — draws directly on Peter's prison-escape in Acts 12 and Paul and Silas's in Acts 16, treating personal conversion as a literal jailbreak.",
+      "modern_echo": {
+        "title": "No Longer Slaves",
+        "artist": "Bethel Music",
+        "year": 2014,
+        "connection": "Both use the specific image of broken chains and freed captivity to describe conversion — not gradual improvement, but a sudden, decisive release."
+      }
+    },
+    {
+      "id": "hymn-054",
+      "title": "Christ Whose Glory Fills the Skies",
+      "author": "Charles Wesley",
+      "year": 1740,
+      "public_domain": true,
+      "era": "Methodist Revival",
+      "scripture_anchor": "Malachi 4:2; 2 Peter 1:19",
+      "doctrine_tags": [
+        "Christ as Light",
+        "Morning Prayer",
+        "Sanctification"
+      ],
+      "full_text": "Christ, whose glory fills the skies,\nChrist, the true, the only light,\nSun of Righteousness, arise,\ntriumph o'er the shades of night.",
+      "notes": "A morning hymn drawing on Malachi's prophecy of the 'sun of righteousness' rising with healing in its wings — Wesley repurposes a messianic prophecy as a personal daily prayer for illumination at the start of each day, treating sunrise itself as a small recurring sermon.",
+      "modern_echo": {
+        "title": "Good Good Father",
+        "artist": "Chris Tomlin / Pat Barrett",
+        "year": 2014,
+        "connection": "Both frame daily, ordinary moments as opportunities to encounter God's character freshly rather than relying on memory of a single past experience."
+      }
+    },
+    {
+      "id": "hymn-055",
+      "title": "To God Be the Glory",
+      "author": "Fanny Crosby",
+      "year": 1875,
+      "public_domain": true,
+      "era": "19th Century Hymnody",
+      "scripture_anchor": "John 3:16; Romans 5:1-2",
+      "doctrine_tags": [
+        "Atonement",
+        "Praise",
+        "Access to God"
+      ],
+      "full_text": "To God be the glory, great things he has done;\nso loved he the world that he gave us his Son,\nwho yielded his life an atonement for sin,\nand opened the life gate that all may go in.",
+      "notes": "Though widely sung today, this hymn was relatively obscure in America for decades after Crosby wrote it, gaining its enduring popularity only after evangelist Billy Graham's crusades in the 1950s rediscovered and popularized it — a hymn that had to wait nearly a century to find its widest audience.",
+      "modern_echo": {
+        "title": "What A Beautiful Name",
+        "artist": "Hillsong Worship",
+        "year": 2016,
+        "connection": "Both move from the cross's accomplishment directly into exultant praise, naming the specific theological transaction (atonement, access) before erupting into worship."
+      }
+    },
+    {
+      "id": "hymn-056",
+      "title": "Praise Him, Praise Him",
+      "author": "Fanny Crosby",
+      "year": 1869,
+      "public_domain": true,
+      "era": "19th Century Hymnody",
+      "scripture_anchor": "Psalm 150",
+      "doctrine_tags": [
+        "Praise",
+        "Christ's Compassion",
+        "Redemption"
+      ],
+      "full_text": "Praise him, praise him, Jesus our blessed Redeemer!\nSing, O earth, his wonderful love proclaim!\nHail him, hail him, highest archangels in glory;\nstrength and honor give to his holy name!",
+      "notes": "One of Crosby's many hymns built almost entirely from repeated, cascading imperatives — praise, sing, hail — reflecting her conviction that worship language should be active and commanding rather than merely descriptive or reflective.",
+      "modern_echo": {
+        "title": "Raise a Hallelujah",
+        "artist": "Bethel Music",
+        "year": 2019,
+        "connection": "Both use direct, repeated imperative commands to praise as the entire structural engine of the song, rather than narrative or argument."
+      }
+    },
+    {
+      "id": "hymn-057",
+      "title": "As the Deer",
+      "author": "Martin Nystrom",
+      "year": 1984,
+      "public_domain": false,
+      "era": "Late 20th Century Hymnody",
+      "scripture_anchor": "Psalm 42:1-2",
+      "doctrine_tags": [
+        "Longing for God",
+        "Worship",
+        "Thirst"
+      ],
+      "excerpt": "As the deer panteth for the water, so my soul longeth after thee",
+      "lyrics_link": "https://www.google.com/search?q=As+the+Deer+Martin+Nystrom+lyrics",
+      "notes": "Nystrom wrote this while a worship leader at a Bible school, reportedly during a period of personal spiritual dryness, directly setting Psalm 42's image of desperate thirst to music rather than paraphrasing it loosely — among the most direct word-for-word Scripture settings in contemporary worship music.",
+      "modern_echo": {
+        "title": "Yet Not I But Through Christ in Me",
+        "artist": "CityAlight",
+        "year": 2018,
+        "connection": "Both express ongoing spiritual hunger and dependence as honest, unresolved longing rather than a problem already solved — faith as continual reaching, not arrival."
+      }
+    },
+    {
+      "id": "hymn-058",
+      "title": "The Lord Is My Light",
+      "author": "Anonymous (Scripture song, Psalm 27)",
+      "year": 1920,
+      "public_domain": true,
+      "era": "Scripture Song",
+      "scripture_anchor": "Psalm 27:1",
+      "doctrine_tags": [
+        "Courage",
+        "Confidence in God",
+        "Fear"
+      ],
+      "full_text": "The Lord is my light and my salvation;\nwhom shall I fear?\nThe Lord is the strength of my life;\nof whom shall I be afraid?",
+      "notes": "A direct musical setting of Psalm 27's opening confession, frequently used as a congregational call-and-response or round, its rhetorical questions inviting the singer to actually answer them in the silence between phrases rather than simply observe them.",
+      "modern_echo": {
+        "title": "The Lion and the Lamb",
+        "artist": "Leeland / Bethel Music",
+        "year": 2015,
+        "connection": "Both ground present courage in God's character rather than circumstance, treating fearlessness as a reasonable conclusion to draw from who God is, not a denial of real danger."
+      }
+    },
+    {
+      "id": "hymn-059",
+      "title": "10,000 Reasons (Bless the Lord)",
+      "author": "Matt Redman & Jonas Myrin",
+      "year": 2011,
+      "public_domain": false,
+      "era": "Contemporary Worship",
+      "scripture_anchor": "Psalm 103:1-5",
+      "doctrine_tags": [
+        "Praise",
+        "Blessing",
+        "Worship Through Aging"
+      ],
+      "excerpt": "Bless the Lord, O my soul, O my soul, worship his holy name",
+      "lyrics_link": "https://www.google.com/search?q=10000+Reasons+Matt+Redman+lyrics",
+      "notes": "A direct echo of Psalm 103's opening self-address — the soul commanding itself to worship, rather than worship arising automatically. The bridge, added later, explicitly anticipates aging and death ('and on that day when my strength is failing'), making it one of contemporary worship's few songs that names mortality directly rather than avoiding it.",
+      "modern_echo": {
+        "title": "It Is Well with My Soul",
+        "artist": "Horatio Spafford (1873)",
+        "year": 1873,
+        "connection": "A rare case running backward to a 19th-century hymn — both commit to worship that continues through every season of life, including its end, rather than only its comfortable middle."
+      }
+    },
+    {
+      "id": "hymn-060",
+      "title": "Cornerstone",
+      "author": "Hillsong Worship (Eric Liljero, Reuben Morgan, Jonas Myrin)",
+      "year": 2012,
+      "public_domain": false,
+      "era": "Contemporary Worship",
+      "scripture_anchor": "1 Corinthians 3:11; Ephesians 2:20",
+      "doctrine_tags": [
+        "Christ as Foundation",
+        "Assurance",
+        "Steadfastness"
+      ],
+      "excerpt": "My hope is built on nothing less than Jesus' blood and righteousness",
+      "lyrics_link": "https://www.google.com/search?q=Cornerstone+Hillsong+lyrics",
+      "notes": "Built directly on the bones of Edward Mote's 1834 hymn 'My Hope Is Built on Nothing Less,' Hillsong's version keeps Mote's first verse nearly verbatim before expanding into new contemporary verses and chorus — a rare explicit, acknowledged bridge between 19th-century hymnody and 21st-century worship music within a single song.",
+      "modern_echo": {
+        "title": "My Hope Is Built (The Solid Rock)",
+        "artist": "Edward Mote (1834)",
+        "year": 1834,
+        "connection": "Not really an echo so much as a direct ancestor — Cornerstone is Hillsong's own deliberate update of this older hymn, making the historical connection explicit rather than implied."
+      }
+    },
+    {
+      "id": "hymn-061",
+      "title": "What a Beautiful Name",
+      "author": "Hillsong Worship (Ben Fielding, Brooke Ligertwood)",
+      "year": 2016,
+      "public_domain": false,
+      "era": "Contemporary Worship",
+      "scripture_anchor": "Philippians 2:9-11; Colossians 1:15-20",
+      "doctrine_tags": [
+        "Christology",
+        "Name of Jesus",
+        "Resurrection"
+      ],
+      "excerpt": "What a beautiful name it is, the name of Jesus Christ my King",
+      "lyrics_link": "https://www.google.com/search?q=What+a+Beautiful+Name+Hillsong+lyrics",
+      "notes": "Structured deliberately like a creed, moving through pre-existence, incarnation, crucifixion, resurrection, and ascension in sequence — essentially a contemporary worship setting of the Philippians 2 Christ-hymn, tracing the same downward-then-upward movement Paul's original text follows.",
+      "modern_echo": {
+        "title": "Crown Him with Many Crowns",
+        "artist": "Matthew Bridges / Godfrey Thring (1851)",
+        "year": 1851,
+        "connection": "Both move systematically through the full scope of Christ's identity and reign rather than focusing on a single attribute, building toward the same exalted, enthroned Christ."
+      }
+    },
+    {
+      "id": "hymn-062",
+      "title": "Goodness of God",
+      "author": "Bethel Music (Jenn Johnson and others)",
+      "year": 2018,
+      "public_domain": false,
+      "era": "Contemporary Worship",
+      "scripture_anchor": "Psalm 23:6; Lamentations 3:22-23",
+      "doctrine_tags": [
+        "Faithfulness of God",
+        "Testimony",
+        "Goodness"
+      ],
+      "excerpt": "I love you Lord, oh your mercy never fails me",
+      "lyrics_link": "https://www.google.com/search?q=Goodness+of+God+Bethel+Music+lyrics",
+      "notes": "Reportedly written collaboratively over several years before its final form, the song's verses move through a personal testimony arc — childhood faith, wandering, and a returned conviction — landing on the same Psalm 23 promise that 'goodness and mercy shall follow me' all the days of life.",
+      "modern_echo": {
+        "title": "Great Is Thy Faithfulness",
+        "artist": "Thomas Chisholm (1923)",
+        "year": 1923,
+        "connection": "Both draw on the same Lamentations 3 well of unfailing mercy renewed daily, separated by nearly a century but making an identical theological claim."
+      }
+    },
+    {
+      "id": "hymn-063",
+      "title": "Way Maker",
+      "author": "Sinach (Osinachi Kalu Okoro Egbu)",
+      "year": 2016,
+      "public_domain": false,
+      "era": "Contemporary Worship",
+      "scripture_anchor": "Isaiah 43:19; Exodus 14:21-29",
+      "doctrine_tags": [
+        "God's Provision",
+        "Miracles",
+        "Deliverance"
+      ],
+      "excerpt": "You are here, moving in our midst, I worship you, I worship you",
+      "lyrics_link": "https://www.google.com/search?q=Way+Maker+Sinach+lyrics",
+      "notes": "Written by Nigerian gospel artist Sinach and recorded initially for a Nigerian audience, the song spread globally through congregational use years before Western artists' cover versions brought it wider international attention — a reminder that contemporary worship's centers of creative gravity are not limited to the US or UK.",
+      "modern_echo": {
+        "title": "Wade in the Water",
+        "artist": "Traditional African American Spiritual (1901)",
+        "year": 1901,
+        "connection": "Both declare God's active intervention in impossible circumstances using the same root image — God making a way through water where none naturally exists."
+      }
+    },
+    {
+      "id": "hymn-064",
+      "title": "Build My Life",
+      "author": "Pat Barrett, Housefires, and others",
+      "year": 2017,
+      "public_domain": false,
+      "era": "Contemporary Worship",
+      "scripture_anchor": "Matthew 7:24-27; 1 Corinthians 3:11",
+      "doctrine_tags": [
+        "Christ as Foundation",
+        "Surrender",
+        "Discipleship"
+      ],
+      "excerpt": "Worthy of every breath we could ever breathe",
+      "lyrics_link": "https://www.google.com/search?q=Build+My+Life+Pat+Barrett+lyrics",
+      "notes": "Draws on Jesus's parable of the wise and foolish builders, directly asking that one's whole life — not merely belief — be founded on Christ as a structural reality rather than a private internal conviction.",
+      "modern_echo": {
+        "title": "The Church's One Foundation",
+        "artist": "Samuel John Stone (1866)",
+        "year": 1866,
+        "connection": "Both use foundation/building imagery to insist that stability — personal or corporate — has only one trustworthy source, separated by a century and a half but making the identical claim."
+      }
+    },
+    {
+      "id": "hymn-065",
+      "title": "Living Hope",
+      "author": "Phil Wickham & Brian Johnson",
+      "year": 2018,
+      "public_domain": false,
+      "era": "Contemporary Worship",
+      "scripture_anchor": "1 Peter 1:3-5; 1 Corinthians 15:54-57",
+      "doctrine_tags": [
+        "Resurrection",
+        "Hope",
+        "Victory over Death"
+      ],
+      "excerpt": "Who could imagine so great a mercy, what heart could fathom such grace",
+      "lyrics_link": "https://www.google.com/search?q=Living+Hope+Phil+Wickham+lyrics",
+      "notes": "Wickham reportedly wrote this after the suicide of a close friend, wrestling directly with death's apparent finality before the song turns decisively toward resurrection hope — not avoiding grief but answering it with a specific, historical claim about an empty tomb.",
+      "modern_echo": {
+        "title": "Christ the Lord Is Risen Today",
+        "artist": "Charles Wesley (1739)",
+        "year": 1739,
+        "connection": "Both move through the same arc from death's weight to resurrection's victory, separated by nearly 300 years but resting on the identical historical claim."
+      }
+    },
+    {
+      "id": "hymn-066",
+      "title": "Yet Not I But Through Christ in Me",
+      "author": "CityAlight (Jonny Robinson, Rich Thompson, Michael Farren)",
+      "year": 2018,
+      "public_domain": false,
+      "era": "Contemporary Worship",
+      "scripture_anchor": "Galatians 2:20",
+      "doctrine_tags": [
+        "Union with Christ",
+        "Sanctification",
+        "Identity in Christ"
+      ],
+      "excerpt": "What gift of grace is Jesus my redeemer",
+      "lyrics_link": "https://www.google.com/search?q=Yet+Not+I+But+Through+Christ+in+Me+lyrics",
+      "notes": "Structured as a sustained meditation on Galatians 2:20 ('I have been crucified with Christ; it is no longer I who live, but Christ who lives in me'), the song deliberately avoids first-person achievement language throughout, replacing 'I' with 'Christ in me' at every turn it can.",
+      "modern_echo": {
+        "title": "Be Thou My Vision",
+        "artist": "Ancient Irish, trans. Eleanor Hull (1905)",
+        "year": 1905,
+        "connection": "Both reorder identity entirely around Christ as center rather than self, asking that nothing else compete for primary attachment."
+      }
+    },
+    {
+      "id": "hymn-067",
+      "title": "Abide with Me",
+      "author": "Henry Francis Lyte",
+      "year": 1847,
+      "public_domain": true,
+      "era": "19th Century Hymnody",
+      "scripture_anchor": "Luke 24:29; Psalm 23:4",
+      "doctrine_tags": [
+        "Presence of God",
+        "Death",
+        "Comfort in Trial"
+      ],
+      "full_text": "Abide with me; fast falls the eventide;\nthe darkness deepens; Lord, with me abide;\nwhen other helpers fail and comforts flee,\nhelp of the helpless, O abide with me.",
+      "notes": "Lyte wrote this in the final weeks of his own life, dying of tuberculosis shortly after completing it, reportedly handing the finished text to a family member the same evening he preached his last sermon. The plea draws on the disciples' words to the risen Christ at Emmaus: 'abide with us, for it is toward evening.'",
+      "modern_echo": {
+        "title": "Even If",
+        "artist": "MercyMe",
+        "year": 2017,
+        "connection": "Both were shaped by genuine mortality and uncertainty, asking for God's presence not as abstract comfort but as the one request that matters when everything else is failing."
+      }
+    },
+    {
+      "id": "hymn-068",
+      "title": "Be Still, My Soul",
+      "author": "Katharina von Schlegel (trans. Jane Borthwick)",
+      "year": 1855,
+      "public_domain": true,
+      "era": "19th Century Translation",
+      "scripture_anchor": "Psalm 46:10",
+      "doctrine_tags": [
+        "Trust",
+        "Patience",
+        "Sovereignty of God"
+      ],
+      "full_text": "Be still, my soul: the Lord is on thy side;\nbear patiently the cross of grief or pain;\nleave to thy God to order and provide;\nin every change he faithful will remain.",
+      "notes": "Originally written in German by a member of a German pietist religious community, the hymn addresses the soul directly in the second person — commanding stillness rather than describing it — the same self-address structure later echoed in songs like '10,000 Reasons.'",
+      "modern_echo": {
+        "title": "Peace Be Still",
+        "artist": "Lauren Daigle",
+        "year": 2015,
+        "connection": "Both command stillness and peace directly into chaos rather than waiting for circumstances to resolve first."
+      }
+    },
+    {
+      "id": "hymn-069",
+      "title": "My Faith Has Found a Resting Place",
+      "author": "Eliza E. Hewitt (also attributed Lidie H. Edmunds)",
+      "year": 1891,
+      "public_domain": true,
+      "era": "19th Century Hymnody",
+      "scripture_anchor": "Romans 5:1-2",
+      "doctrine_tags": [
+        "Faith",
+        "Assurance",
+        "Justification"
+      ],
+      "full_text": "My faith has found a resting place,\nnot in device or creed;\nI trust the ever-living One,\nhis wounds for me shall plead.",
+      "notes": "The hymn explicitly distances saving faith from intellectual systems or institutional formulas ('not in device or creed'), insisting instead on trust in a person — Christ himself — as the only adequate resting place, a deliberately anti-formulaic statement of personal faith.",
+      "modern_echo": {
+        "title": "In Christ Alone",
+        "artist": "Getty & Townend",
+        "year": 2001,
+        "connection": "Both ground assurance entirely in Christ's person and finished work rather than any system, formula, or human achievement."
+      }
+    },
+    {
+      "id": "hymn-070",
+      "title": "Go Ye Messengers of God",
+      "author": "Mary Ann Thomson",
+      "year": 1870,
+      "public_domain": true,
+      "era": "19th Century Hymnody",
+      "scripture_anchor": "Matthew 28:18-20",
+      "doctrine_tags": [
+        "Great Commission",
+        "Missions",
+        "Obedience"
+      ],
+      "full_text": "O Zion, haste, thy mission high fulfilling,\nto tell to all the world that God is light;\nthat he who made all nations is not willing\none soul should perish, lost in shades of night.",
+      "notes": "Thomson wrote this while nursing her husband through a serious illness, reportedly composing most of it without a hymnal nearby, drawing the missionary urgency directly from 2 Peter 3:9's statement that God is 'not willing that any should perish.'",
+      "modern_echo": {
+        "title": "Send Me",
+        "artist": "Aaron Niequist / Corey Voss",
+        "year": 2014,
+        "connection": "Both frame missionary obedience as urgent rather than optional, responding to the same conviction that the gospel's reach matters too much to delay."
+      }
+    },
+    {
+      "id": "hymn-071",
+      "title": "We've a Story to Tell to the Nations",
+      "author": "H. Ernest Nichol",
+      "year": 1896,
+      "public_domain": true,
+      "era": "19th Century Hymnody",
+      "scripture_anchor": "Isaiah 9:2; Matthew 28:19-20",
+      "doctrine_tags": [
+        "Missions",
+        "Hope for the Nations",
+        "Light to Darkness"
+      ],
+      "full_text": "We've a story to tell to the nations,\nthat shall turn their hearts to the right,\na story of truth and mercy,\na story of peace and light.",
+      "notes": "Written for a children's missionary society, the hymn's plain, almost simple language was deliberate — Nichol wanted a missionary anthem accessible to young singers, not requiring sophisticated theological vocabulary to understand or feel its urgency.",
+      "modern_echo": {
+        "title": "King of Kings",
+        "artist": "Hillsong Worship",
+        "year": 2019,
+        "connection": "Both trace the gospel's story as something meant to reach every nation, moving from a specific historical narrative to its global implications."
+      }
+    },
+    {
+      "id": "hymn-072",
+      "title": "Come, Ye Thankful People, Come",
+      "author": "Henry Alford",
+      "year": 1844,
+      "public_domain": true,
+      "era": "19th Century Hymnody",
+      "scripture_anchor": "Matthew 13:24-30; Galatians 6:9",
+      "doctrine_tags": [
+        "Thanksgiving",
+        "Harvest",
+        "Eschatological Judgment"
+      ],
+      "full_text": "Come, ye thankful people, come,\nraise the song of harvest home;\nall is safely gathered in,\nere the winter storms begin.",
+      "notes": "Alford draws the agricultural harvest imagery directly into Jesus's parable of the wheat and tares, making this nominally a thanksgiving hymn that is, by its final verse, actually about final judgment — the 'harvest' becomes an image of eternal separation, not merely abundance.",
+      "modern_echo": {
+        "title": "Goodness of God",
+        "artist": "Bethel Music",
+        "year": 2018,
+        "connection": "Both move from gratitude for present provision toward trust in God's larger, ongoing faithfulness across an entire life or season."
+      }
+    },
+    {
+      "id": "hymn-073",
+      "title": "Buried with Christ",
+      "author": "Anonymous (Scripture song, Romans 6)",
+      "year": 1900,
+      "public_domain": true,
+      "era": "Scripture Song",
+      "scripture_anchor": "Romans 6:3-4",
+      "doctrine_tags": [
+        "Baptism",
+        "New Life",
+        "Union with Christ"
+      ],
+      "full_text": "Buried with Christ, my blessed Redeemer,\ndead to the law, O glorious thought!\nNow both alive, no more shall I fear him,\nJesus, my Surety, my freedom hath bought.",
+      "notes": "A direct Scripture-song setting of Paul's baptismal theology in Romans 6 — burial and resurrection as the controlling image for what baptism actually accomplishes, rather than treating it as a mere symbolic ceremony detached from that theology.",
+      "modern_echo": {
+        "title": "Yet Not I But Through Christ in Me",
+        "artist": "CityAlight",
+        "year": 2018,
+        "connection": "Both rest entirely on union with Christ's death and resurrection as the believer's actual identity, not a past event merely remembered."
+      }
+    },
+    {
+      "id": "hymn-074",
+      "title": "Now the Day Is Over",
+      "author": "Sabine Baring-Gould",
+      "year": 1865,
+      "public_domain": true,
+      "era": "19th Century Hymnody",
+      "scripture_anchor": "Psalm 4:8; Psalm 121:3-4",
+      "doctrine_tags": [
+        "Rest",
+        "God's Watchfulness",
+        "Evening Prayer"
+      ],
+      "full_text": "Now the day is over,\nnight is drawing nigh,\nshadows of the evening\nsteal across the sky.",
+      "notes": "Written originally as a children's evening hymn, its simple, almost lullaby-like structure rests on Psalm 121's promise that the One who keeps Israel 'will neither slumber nor sleep' — the singer's own rest made possible specifically because God's watchfulness never lapses.",
+      "modern_echo": {
+        "title": "New Every Morning",
+        "artist": "Vertical Worship",
+        "year": 2019,
+        "connection": "Both frame the day's natural rhythm — ending, beginning again — as evidence of God's continual, reliable care rather than mere passage of time."
+      }
+    },
+    {
+      "id": "hymn-075",
+      "title": "Blest Be the Tie That Binds",
+      "author": "John Fawcett",
+      "year": 1782,
+      "public_domain": true,
+      "era": "18th Century Hymnody",
+      "scripture_anchor": "Colossians 3:14; Ephesians 4:1-3",
+      "doctrine_tags": [
+        "Christian Fellowship",
+        "Unity",
+        "Love"
+      ],
+      "full_text": "Blest be the tie that binds\nour hearts in Christian love;\nthe fellowship of kindred minds\nis like to that above.",
+      "notes": "Fawcett wrote this after deciding, at the last moment, not to leave his small rural congregation for a more prestigious pulpit in London — his own congregation's visible grief at the news of his planned departure moved him to stay, and this hymn about the bonds of church fellowship grew directly out of that experience.",
+      "modern_echo": {
+        "title": "At the Table",
+        "artist": "Josh Baldwin / Bethel Music",
+        "year": 2020,
+        "connection": "Both center the literal, practical bonds of a gathered church community as something worth cherishing and naming, not merely assumed."
       }
     }
   ]
