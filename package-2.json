@@ -1,0 +1,21 @@
+{
+  "name": "hymntrails",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Hymn-rooted Bible study tool. Sibling app to RabbiRabbit — reuses its scripture and cross-reference data, adds an original hymn database, and closes every study with a Modern Echo: a contemporary song that carries the same truth forward.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "jspdf": "^4.2.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.1"
+  }
+}
