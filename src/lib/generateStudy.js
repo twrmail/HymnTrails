@@ -4,7 +4,7 @@
 // created for this project rather than reusing RabbiRabbit's, since each
 // Worker holds its own encrypted Anthropic API key and the two tools
 // should be able to fail or redeploy independently).
-const WORKER_URL = 'https://hymntrails-api.twrmail.workers.dev/'
+const WORKER_URL = 'https://hymntrails-api.twrmail.workers.dev'
 
 export async function generateStudy(params, onChunk) {
   const response = await fetch(WORKER_URL, {
