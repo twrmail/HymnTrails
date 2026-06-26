@@ -2,10 +2,6 @@ import { useMemo } from 'react'
 import FontSizeToggle from './FontSizeToggle'
 import StudyActions from './StudyActions'
 
-/**
- * Splits out the "🎵 MODERN ECHO" closing section so it gets its own
- * gold-bordered card treatment, distinct from the main study body.
- */
 function splitModernEcho(content) {
   const marker = /🎵\s*MODERN ECHO/i
   const match = content.match(marker)
@@ -18,10 +14,17 @@ function splitModernEcho(content) {
 }
 
 /**
- * Inline Markdown renderer — handles patterns Claude produces in HymnTrails
- * studies: **bold**, *italic*, `code`. Zero dependencies.
+ * Inline Markdown renderer — handles **bold**, *italic*, `code`.
+ * Normalizes single newlines to spaces first so that patterns like
+ * *charis [khar'-ece]* match even when Claude wraps them across a line.
+ * Zero dependencies.
  */
-function renderInline(text, keyPrefix = '') {
+function renderInline(rawText, keyPrefix = '') {
+  // Collapse single newlines to spaces — preserves paragraph breaks
+  // (which were already split out before we get here) while letting
+  // the inline regex match patterns that span a line boundary.
+  const text = rawText.replace(/([^\n])\n([^\n])/g, '$1 $2')
+
   const pattern = /(\*\*(.+?)\*\*|\*(.+?)\*|`(.+?)`)/g
   const parts = []
   let last = 0
@@ -60,14 +63,10 @@ function renderInline(text, keyPrefix = '') {
 }
 
 /**
- * Block-level Markdown renderer. Handles:
- *   ## Section heading, ### Sub-heading, #### minor heading
- *   --- horizontal rule
- *   > blockquote
- *   - bullet lists
- *   1. numbered lists
- *   regular paragraphs
- * Each block's inline content is further processed by renderInline().
+ * Block-level Markdown renderer. Handles ##/###/#### headings, ---
+ * horizontal rules, > blockquotes, - bullet lists, 1. numbered lists,
+ * and regular paragraphs. Each block's inline content is further
+ * processed by renderInline().
  */
 function renderMarkdown(text) {
   if (!text) return null
@@ -178,10 +177,6 @@ function renderMarkdown(text) {
   })
 }
 
-/**
- * Derive a title for PDF/text export from the study's opening line,
- * stripping any Markdown heading markers and bold markers.
- */
 function deriveTitle(body) {
   const firstLine = body.split('\n').find(l => l.trim().length > 0)
   if (!firstLine) return 'HymnTrails Study'
